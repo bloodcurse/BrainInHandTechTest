@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainInHandTechTest", "BrainInHandTechTest.csproj", "{BB56A366-9AD8-4974-BFC3-AAA6C94DDF04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageObjects", "PageObjects", "{8D177359-3B8D-4B4E-AF59-C2D1F98A6F5F}"
+	ProjectSection(SolutionItems) = preProject
+		LoginPage.cs = LoginPage.cs
+		TimeLine.cs = TimeLine.cs
+		WelcomePage.cs = WelcomePage.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8C9D89E0-5043-4536-B056-90BD6547026C}"
+	ProjectSection(SolutionItems) = preProject
+		Tests.cs = Tests.cs
+		UnitTest1.cs = UnitTest1.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2C6D9E53-5CB9-4C88-8C54-5AB333D5BB4E}"
+	ProjectSection(SolutionItems) = preProject
+		APIresponse.cs = APIresponse.cs
+		PostData.cs = PostData.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB56A366-9AD8-4974-BFC3-AAA6C94DDF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB56A366-9AD8-4974-BFC3-AAA6C94DDF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB56A366-9AD8-4974-BFC3-AAA6C94DDF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB56A366-9AD8-4974-BFC3-AAA6C94DDF04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
